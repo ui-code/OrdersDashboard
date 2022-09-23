@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+*, html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #04041f, #030526);
+}
+
+.container {
+    width: 280px;
+    height: 600px;
+    background: #1e1447;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+/*helper classes*/
+.flex {
+    display: flex;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.col {
+    flex-direction: column;
+}
+
+.ml-40 {
+    margin-left: 40px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.py-10 {
+    padding: 10px 0;
+}
+
+.py-15 {
+    padding: 15px 0;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.width-full {
+    width: 100%;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+h1.title {
+    color: #554884;
+    font-weight: 400;
+}
+
+.active>h1.title {
+    color: #fbf6fd;
+}
+
+.settings>h2.sub-title {
+    color: #554884;
+}
+
+.home-icon, .settings-icon {
+    width: 56.5px;
+    height: 56.5px;
+    font-size: 1.5rem;
+    background: #261c51;
+    color: #554884;
+    border-radius: 50%;
+}
+
+.active>.home-icon {
+    background: linear-gradient(to bottom, #df42c8, #f067a8);
+    color: #fbf6fd;
+    box-shadow: 0 0 50px 15px rgba(234, 90, 178, 0.5);
+}
+
+.indicators>.menu-icon {
+    color: #554884;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.indicators.orders-bg {
+    background: #251b55;
+    height: 120px;
+    border-radius: 40px;
+    width: 80px;
+    padding: 20px 0;
+}
+
+.indicators>.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.indicators>.dot-1 {
+    background: #f452c9;
+}
+
+.indicators>.dot-2 {
+    background: #932d71;
+}
+
+.indicators>.dot-3 {
+    background: #858fe1;
+}
+
+.indicators>.dot-4 {
+    background: #505a9c;
+}
+
+.indicators>.glow-1 {
+    box-shadow: 0 0 20px 5px rgba(244, 82, 201, 0.5);
+    border: 1px solid #4f1768;
+}
+
+.indicators>.glow-2 {
+    box-shadow: 0 0 20px 5px rgba(244, 82, 201, 0.25);
+    border: 1px solid #4f1768;
+}
+
+.indicators>.glow-3 {
+    box-shadow: 0 0 20px 5px rgba(132, 143, 225, 0.5);
+    border: 1px solid #8f9aee;
+}
+
+.indicators>.glow-4 {
+    box-shadow: 0 0 20px 5px rgba(133, 143, 225, 0.25);
+    border: 1px solid #47539c;
+}
+
+.list-items {
+    color: #554884;
+}
+
+.list-items.active {
+    color: #fbf6fd;
+}
+
+h3 {
+    font-weight: normal;
+}
+
+.indicators.active>.menu-icon {
+    color: #fbf6fd;
+}
+
+.indicators.active>.dot-1,
+.indicators.active>.dot-2,
+.indicators.active>.dot-3,
+.indicators.active>.dot-4 {
+    background: #fbf6fd;
+}
+
+.indicators.active>.glow-1,
+.indicators.active>.glow-2,
+.indicators.active>.glow-3,
+.indicators.active>.glow-4 {
+    box-shadow: none;
+    border: none;
+}
+
+.indicators.active.orders-bg {
+    background: linear-gradient(to bottom, #df42c8, #f067a8);
+}
